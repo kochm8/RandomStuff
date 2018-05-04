@@ -1,0 +1,6 @@
+2016-06-10 09:45:21,430 [4] ERROR BFH.App.ExtremeFisheye.VideoPlayer.VideoPlayerViewModel [Capture_ImageGrabbed BFH.App.ExtremeFisheye.VideoPlayer.VideoPlayerViewModel] - Failed to grab image.
+Emgu.CV.Util.CvException: OpenCV: u != 0
+   at Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   at Emgu.CV.CvInvoke.cveVideoCaptureRetrieve(IntPtr capture, IntPtr image, Int32 flag)
+   at Emgu.CV.Capture.Retrieve(IOutputArray image, Int32 channel)
+   at BFH.App.ExtremeFisheye.VideoPlayer.VideoPlayerViewModel.Capture_ImageGrabbed(Object sender, EventArgs e) in C:\Users\michael\BFH\8 Semester\Projekt 2\ExtremeFisheye\Main\Source\App.ExtremeFisheye\VideoPlayer\VideoPlayerViewModel.cs:line 263
